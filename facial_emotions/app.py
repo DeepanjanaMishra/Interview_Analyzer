@@ -77,7 +77,7 @@ class EmotionCNN(nn.Module):
 # ---------------------------
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-model_path = os.path.join(BASE_DIR, "emotion_cnn.pth")
+model_path = os.path.join(BASE_DIR, "model saved after its training using cnn architecture")
 
 device = torch.device("cpu")
 
