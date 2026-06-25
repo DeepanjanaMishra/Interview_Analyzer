@@ -2,7 +2,6 @@ import torch
 import torch.nn as nn
 from torchvision import transforms
 from PIL import Image
-
 # ------------------------
 # Device (cross-platform)
 # ------------------------
@@ -55,7 +54,6 @@ class EmotionCNN(nn.Module):
         features = self.feature_layer(x)
         output = self.classifier(features)
         return output, features
-
 # ------------------------
 # Load Model
 # ------------------------
@@ -64,7 +62,6 @@ model.load_state_dict(torch.load("Location of the saved model", map_location=dev
 model.eval()
 
 print("Model loaded successfully!")
-
 # ------------------------
 # Image Transform
 # ------------------------
