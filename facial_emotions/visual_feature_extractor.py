@@ -91,7 +91,7 @@ def extract_visual_features(image_path):
 # Test the feature extractor
 # ------------------------
 
-test_image = r"C:\Users\Deepanjana Mishra\OneDrive - BENNETT UNIVERSITY\Desktop\AI_ML_Project\Facial emotions\test\happy\PrivateTest_218533.jpg"
+test_image = "location of an image to test"
 test_image1 = r"C:\Users\Deepanjana Mishra\OneDrive - BENNETT UNIVERSITY\Desktop\AI_ML_Project\Facial emotions\test\sad\PrivateTest_2013992.jpg"
 
 features = extract_visual_features(test_image)
