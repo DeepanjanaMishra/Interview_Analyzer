@@ -1,6 +1,6 @@
 import os
 
-dataset_path = r"C:\Users\Deepanjana Mishra\OneDrive - BENNETT UNIVERSITY\Desktop\AI_ML_Project\Facial emotions"
+dataset_path = "Dataset-location on the device or the dataset name if in the same directory"
 
 splits = ["train", "test"]
 emotions = ["angry","disgust","fear","happy","sad","surprise","neutral"]
