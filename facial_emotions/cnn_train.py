@@ -10,7 +10,7 @@ np.random.seed(42)
 random.seed(42)
 
 # Path to your dataset
-data_dir = r"C:\Users\Deepanjana Mishra\OneDrive - BENNETT UNIVERSITY\Desktop\AI_ML_Project\Facial emotions"
+data_dir ="Dataset-location on the device or the dataset name if in the same directory"
 
 # Image transforms
 train_transform = transforms.Compose([
