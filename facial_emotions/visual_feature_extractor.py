@@ -60,7 +60,7 @@ class EmotionCNN(nn.Module):
 # Load Model
 # ------------------------
 model = EmotionCNN().to(device)
-model.load_state_dict(torch.load("facial_emotions/emotion_cnn.pth", map_location=device))
+model.load_state_dict(torch.load("Location of the saved model", map_location=device))
 model.eval()
 
 print("Model loaded successfully!")
