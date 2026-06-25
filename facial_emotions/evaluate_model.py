@@ -9,7 +9,7 @@ import matplotlib.pyplot as plt
 # -----------------------
 # Dataset Path
 # -----------------------
-data_dir = r"C:\Users\Deepanjana Mishra\OneDrive - BENNETT UNIVERSITY\Desktop\AI_ML_Project\Facial emotions"
+data_dir = "Dataset-location on the device or the dataset name if in the same directory"
 
 # Only basic transforms for testing
 test_transform = transforms.Compose([
