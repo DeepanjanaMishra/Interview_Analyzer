@@ -70,12 +70,9 @@ class EmotionCNN(nn.Module):
         features = self.feature_layer(x)
         output = self.classifier(features)
         return output, features
-
-
 # ---------------------------
 # LOAD MODEL
 # ---------------------------
-
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 model_path = os.path.join(BASE_DIR, "model saved after its training using cnn architecture")
 
@@ -97,18 +94,13 @@ transform = transforms.Compose([
     transforms.ToTensor(),
     transforms.Normalize((0.5,), (0.5,))
 ])
-
 # ---------------------------
 # LABELS (VERY IMPORTANT)
 # ---------------------------
-
 labels =["angry", "disgust", "fear", "happy", "neutral", "sad", "surprise"]
-
 # ---------------------------
 # API ROUTE
 # ---------------------------
-
-
 @app.route("/")
 def home():
     return "ML API RUNNING"
