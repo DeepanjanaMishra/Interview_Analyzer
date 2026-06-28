@@ -150,7 +150,7 @@ Project_Code/
 │
 ├── audio_emotions/
 ```
-
+---
 ## ⚙️ Installation
 
 ### Clone Repository
@@ -229,6 +229,7 @@ node server.js
 cd frontend
 npm run dev
 ```
+---
 
 ## 🎯 Current Features
 
@@ -265,6 +266,7 @@ npm run dev
 **Deepanjana Mishra**
 
 B.Tech Computer Science Engineering
+
 Bennett University
 
 ---
