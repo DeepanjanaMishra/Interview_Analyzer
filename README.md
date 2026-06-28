@@ -139,7 +139,7 @@ Audio API  Facial API
 ---
 
 ## 📁 Project Structure
-
+```text
 Project_Code/
 │
 ├── frontend/
@@ -149,7 +149,7 @@ Project_Code/
 ├── facial_emotions/
 │
 ├── audio_emotions/
-
+```
 
 ## ⚙️ Installation
 
