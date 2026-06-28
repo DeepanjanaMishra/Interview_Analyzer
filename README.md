@@ -155,11 +155,11 @@ Project_Code/
 
 ### Clone Repository
 
-bash:
+```bash
 
 git clone <repository-url>
 cd Project_Code
-
+```
 
 ### Install Frontend Dependencies
 
