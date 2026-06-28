@@ -163,22 +163,22 @@ cd Project_Code
 
 ### Install Frontend Dependencies
 
-bash:
+```bash
 
 cd frontend
 npm install
-
+```
 
 ### Install Backend Dependencies
 
-bash:
+```bash
 
 cd ../backend
 npm install
-
+```
 ### Install Python Dependencies
 
-bash
+```bash
 
 pip install flask
 pip install flask-cors
@@ -188,48 +188,47 @@ pip install librosa
 pip install pydub
 pip install pillow
 pip install torchvision
-
+```
 ---
 
 ## ▶️ Running the Project
 
 ### 1. Start MongoDB
 
-bash:
+```bash
 
 mongod
-
+```
 
 ### 2. Start Facial Emotion API
 
-bash:
+```bash
 
 cd facial_emotions
 python app.py
-
+```
 ### 3. Start Audio Emotion API
 
-bash:
+```bash
 
 cd audio_emotions
 python audio_api.py
-
+```
 
 ### 4. Start Backend Server
 
-bash:
-
+```bash
 cd backend
 node server.js
-
+```
 
 ### 5. Start Frontend
 
-bash:
+```bash
 
 cd frontend
 npm run dev
-
+```
 
 ## 🎯 Current Features
 
