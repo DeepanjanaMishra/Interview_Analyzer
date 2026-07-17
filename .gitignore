@@ -1,0 +1,39 @@
+# Node
+backend/node_modules/
+frontend/node_modules/
+
+# Environment files
+backend/.env
+frontend/.env
+
+# Uploads
+backend/uploads/
+
+# Python
+__pycache__/
+*.pyc
+
+# Models
+*.pth
+*.h5
+*.pkl
+
+# Numpy
+*.npy
+
+# Archives
+*.zip
+*.keras
+
+# Datasets
+audio_emotions/RAVDESS/
+audio_emotions/TESS/
+audio_emotions/resampled_16k/
+audio_emotions/normalized_3s/
+audio_emotions/features_mfcc/
+
+# Build files
+frontend/dist/
+
+# VS Code
+.vscode/
