@@ -263,6 +263,8 @@ npm run dev
 
 ## 👩‍💻 Developer
 
+**Dhruv Gadia**
+
 **Deepanjana Mishra**
 
 B.Tech Computer Science Engineering
